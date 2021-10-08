@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "YGOPRODeckClient",
+        "repositoryURL": "https://github.com/blakerharrison/ygoprodeck-client-package.git",
+        "state": {
+          "branch": null,
+          "revision": "b367466bec10423954223dd1b35d6bce3ea25654",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

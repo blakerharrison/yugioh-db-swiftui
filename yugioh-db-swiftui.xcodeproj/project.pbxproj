@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC857ADF2710153800900F56 /* YGOPRODeckClient in Frameworks */ = {isa = PBXBuildFile; productRef = AC857ADE2710153800900F56 /* YGOPRODeckClient */; };
+		ACA15CF6270FC80C00DF378E /* yugioh_db_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA15CF5270FC80C00DF378E /* yugioh_db_swiftuiApp.swift */; };
+		ACA15CF8270FC80C00DF378E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA15CF7270FC80C00DF378E /* ContentView.swift */; };
+		ACA15CFA270FC81300DF378E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA15CF9270FC81300DF378E /* Assets.xcassets */; };
+		ACA15CFD270FC81300DF378E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA15CFC270FC81300DF378E /* Preview Assets.xcassets */; };
+		ACA15D08270FC81300DF378E /* yugioh_db_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA15D07270FC81300DF378E /* yugioh_db_swiftuiTests.swift */; };
+		ACA15D13270FC81300DF378E /* yugioh_db_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA15D12270FC81300DF378E /* yugioh_db_swiftuiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACA15D04270FC81300DF378E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA15CEA270FC80C00DF378E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA15CF1270FC80C00DF378E;
+			remoteInfo = "yugioh-db-swiftui";
+		};
+		ACA15D0F270FC81300DF378E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA15CEA270FC80C00DF378E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA15CF1270FC80C00DF378E;
+			remoteInfo = "yugioh-db-swiftui";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACA15CF2270FC80C00DF378E /* yugioh-db-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yugioh-db-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA15CF5270FC80C00DF378E /* yugioh_db_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yugioh_db_swiftuiApp.swift; sourceTree = "<group>"; };
+		ACA15CF7270FC80C00DF378E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACA15CF9270FC81300DF378E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACA15CFC270FC81300DF378E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACA15CFE270FC81300DF378E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA15D03270FC81300DF378E /* yugioh-db-swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yugioh-db-swiftuiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA15D07270FC81300DF378E /* yugioh_db_swiftuiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yugioh_db_swiftuiTests.swift; sourceTree = "<group>"; };
+		ACA15D09270FC81300DF378E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA15D0E270FC81300DF378E /* yugioh-db-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yugioh-db-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA15D12270FC81300DF378E /* yugioh_db_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yugioh_db_swiftuiUITests.swift; sourceTree = "<group>"; };
+		ACA15D14270FC81300DF378E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACA15CEF270FC80C00DF378E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC857ADF2710153800900F56 /* YGOPRODeckClient in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA15D00270FC81300DF378E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA15D0B270FC81300DF378E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACA15CE9270FC80C00DF378E = {
+			isa = PBXGroup;
+			children = (
+				ACA15CF4270FC80C00DF378E /* yugioh-db-swiftui */,
+				ACA15D06270FC81300DF378E /* yugioh-db-swiftuiTests */,
+				ACA15D11270FC81300DF378E /* yugioh-db-swiftuiUITests */,
+				ACA15CF3270FC80C00DF378E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACA15CF3270FC80C00DF378E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACA15CF2270FC80C00DF378E /* yugioh-db-swiftui.app */,
+				ACA15D03270FC81300DF378E /* yugioh-db-swiftuiTests.xctest */,
+				ACA15D0E270FC81300DF378E /* yugioh-db-swiftuiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACA15CF4270FC80C00DF378E /* yugioh-db-swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				ACA15CF5270FC80C00DF378E /* yugioh_db_swiftuiApp.swift */,
+				ACA15CF7270FC80C00DF378E /* ContentView.swift */,
+				ACA15CF9270FC81300DF378E /* Assets.xcassets */,
+				ACA15CFE270FC81300DF378E /* Info.plist */,
+				ACA15CFB270FC81300DF378E /* Preview Content */,
+			);
+			path = "yugioh-db-swiftui";
+			sourceTree = "<group>";
+		};
+		ACA15CFB270FC81300DF378E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACA15CFC270FC81300DF378E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACA15D06270FC81300DF378E /* yugioh-db-swiftuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA15D07270FC81300DF378E /* yugioh_db_swiftuiTests.swift */,
+				ACA15D09270FC81300DF378E /* Info.plist */,
+			);
+			path = "yugioh-db-swiftuiTests";
+			sourceTree = "<group>";
+		};
+		ACA15D11270FC81300DF378E /* yugioh-db-swiftuiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA15D12270FC81300DF378E /* yugioh_db_swiftuiUITests.swift */,
+				ACA15D14270FC81300DF378E /* Info.plist */,
+			);
+			path = "yugioh-db-swiftuiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACA15CF1270FC80C00DF378E /* yugioh-db-swiftui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA15D17270FC81300DF378E /* Build configuration list for PBXNativeTarget "yugioh-db-swiftui" */;
+			buildPhases = (
+				ACA15CEE270FC80C00DF378E /* Sources */,
+				ACA15CEF270FC80C00DF378E /* Frameworks */,
+				ACA15CF0270FC80C00DF378E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "yugioh-db-swiftui";
+			packageProductDependencies = (
+				AC857ADE2710153800900F56 /* YGOPRODeckClient */,
+			);
+			productName = "yugioh-db-swiftui";
+			productReference = ACA15CF2270FC80C00DF378E /* yugioh-db-swiftui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACA15D02270FC81300DF378E /* yugioh-db-swiftuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA15D1A270FC81300DF378E /* Build configuration list for PBXNativeTarget "yugioh-db-swiftuiTests" */;
+			buildPhases = (
+				ACA15CFF270FC81300DF378E /* Sources */,
+				ACA15D00270FC81300DF378E /* Frameworks */,
+				ACA15D01270FC81300DF378E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA15D05270FC81300DF378E /* PBXTargetDependency */,
+			);
+			name = "yugioh-db-swiftuiTests";
+			productName = "yugioh-db-swiftuiTests";
+			productReference = ACA15D03270FC81300DF378E /* yugioh-db-swiftuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACA15D0D270FC81300DF378E /* yugioh-db-swiftuiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA15D1D270FC81300DF378E /* Build configuration list for PBXNativeTarget "yugioh-db-swiftuiUITests" */;
+			buildPhases = (
+				ACA15D0A270FC81300DF378E /* Sources */,
+				ACA15D0B270FC81300DF378E /* Frameworks */,
+				ACA15D0C270FC81300DF378E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA15D10270FC81300DF378E /* PBXTargetDependency */,
+			);
+			name = "yugioh-db-swiftuiUITests";
+			productName = "yugioh-db-swiftuiUITests";
+			productReference = ACA15D0E270FC81300DF378E /* yugioh-db-swiftuiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACA15CEA270FC80C00DF378E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					ACA15CF1270FC80C00DF378E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					ACA15D02270FC81300DF378E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ACA15CF1270FC80C00DF378E;
+					};
+					ACA15D0D270FC81300DF378E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ACA15CF1270FC80C00DF378E;
+					};
+				};
+			};
+			buildConfigurationList = ACA15CED270FC80C00DF378E /* Build configuration list for PBXProject "yugioh-db-swiftui" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACA15CE9270FC80C00DF378E;
+			packageReferences = (
+				AC857ADD2710153800900F56 /* XCRemoteSwiftPackageReference "ygoprodeck-client-package" */,
+			);
+			productRefGroup = ACA15CF3270FC80C00DF378E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACA15CF1270FC80C00DF378E /* yugioh-db-swiftui */,
+				ACA15D02270FC81300DF378E /* yugioh-db-swiftuiTests */,
+				ACA15D0D270FC81300DF378E /* yugioh-db-swiftuiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACA15CF0270FC80C00DF378E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA15CFD270FC81300DF378E /* Preview Assets.xcassets in Resources */,
+				ACA15CFA270FC81300DF378E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA15D01270FC81300DF378E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA15D0C270FC81300DF378E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACA15CEE270FC80C00DF378E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA15CF8270FC80C00DF378E /* ContentView.swift in Sources */,
+				ACA15CF6270FC80C00DF378E /* yugioh_db_swiftuiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA15CFF270FC81300DF378E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA15D08270FC81300DF378E /* yugioh_db_swiftuiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA15D0A270FC81300DF378E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA15D13270FC81300DF378E /* yugioh_db_swiftuiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACA15D05270FC81300DF378E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA15CF1270FC80C00DF378E /* yugioh-db-swiftui */;
+			targetProxy = ACA15D04270FC81300DF378E /* PBXContainerItemProxy */;
+		};
+		ACA15D10270FC81300DF378E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA15CF1270FC80C00DF378E /* yugioh-db-swiftui */;
+			targetProxy = ACA15D0F270FC81300DF378E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACA15D15270FC81300DF378E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACA15D16270FC81300DF378E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACA15D18270FC81300DF378E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"yugioh-db-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = MA84G22696;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "yugioh-db-swiftui/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Blake.yugioh-db-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACA15D19270FC81300DF378E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"yugioh-db-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = MA84G22696;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "yugioh-db-swiftui/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Blake.yugioh-db-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACA15D1B270FC81300DF378E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA84G22696;
+				INFOPLIST_FILE = "yugioh-db-swiftuiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Blake.yugioh-db-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yugioh-db-swiftui.app/yugioh-db-swiftui";
+			};
+			name = Debug;
+		};
+		ACA15D1C270FC81300DF378E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA84G22696;
+				INFOPLIST_FILE = "yugioh-db-swiftuiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Blake.yugioh-db-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yugioh-db-swiftui.app/yugioh-db-swiftui";
+			};
+			name = Release;
+		};
+		ACA15D1E270FC81300DF378E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA84G22696;
+				INFOPLIST_FILE = "yugioh-db-swiftuiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Blake.yugioh-db-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "yugioh-db-swiftui";
+			};
+			name = Debug;
+		};
+		ACA15D1F270FC81300DF378E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA84G22696;
+				INFOPLIST_FILE = "yugioh-db-swiftuiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Blake.yugioh-db-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "yugioh-db-swiftui";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACA15CED270FC80C00DF378E /* Build configuration list for PBXProject "yugioh-db-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA15D15270FC81300DF378E /* Debug */,
+				ACA15D16270FC81300DF378E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA15D17270FC81300DF378E /* Build configuration list for PBXNativeTarget "yugioh-db-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA15D18270FC81300DF378E /* Debug */,
+				ACA15D19270FC81300DF378E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA15D1A270FC81300DF378E /* Build configuration list for PBXNativeTarget "yugioh-db-swiftuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA15D1B270FC81300DF378E /* Debug */,
+				ACA15D1C270FC81300DF378E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA15D1D270FC81300DF378E /* Build configuration list for PBXNativeTarget "yugioh-db-swiftuiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA15D1E270FC81300DF378E /* Debug */,
+				ACA15D1F270FC81300DF378E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC857ADD2710153800900F56 /* XCRemoteSwiftPackageReference "ygoprodeck-client-package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/blakerharrison/ygoprodeck-client-package.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC857ADE2710153800900F56 /* YGOPRODeckClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC857ADD2710153800900F56 /* XCRemoteSwiftPackageReference "ygoprodeck-client-package" */;
+			productName = YGOPRODeckClient;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ACA15CEA270FC80C00DF378E /* Project object */;
+}
